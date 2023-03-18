@@ -10,6 +10,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 dataset = pd.read_csv(r'https://raw.githubusercontent.com/rishank-shah/Diabetes-Prediction/main/diabetes.csv')
 
+st.set_page_config(page_title='Diabetes Checkup')
 st.title('Diabetes Checkup')
 st.sidebar.header('Patient Data')
 
