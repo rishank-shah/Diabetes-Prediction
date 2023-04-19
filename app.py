@@ -8,7 +8,7 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.utils import resample
 from sklearn.ensemble import RandomForestClassifier
 
-dataset = pd.read_csv(r'https://raw.githubusercontent.com/rishank-shah/Diabetes-Prediction/main/diabetes.csv')
+dataset = pd.read_csv('./diabetes.csv')
 
 st.set_page_config(page_title='Diabetes Checkup')
 st.title('Diabetes Checkup')
